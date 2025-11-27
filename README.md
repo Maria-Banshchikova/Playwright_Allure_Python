@@ -13,21 +13,22 @@
 ## Структура проекта (Framework Structure)
 
 Playwright_Allure_Python/
-├── .venv/             # Виртуальное окружение Python (не входит в репозиторий)
-├── allure-results/    # Результаты выполнения тестов для Allure (не отслеживается в Git)
-├── data/              # Файлы с тестовыми данными для заполнения формы
-├── pages/             # Page Objects
-│   ├── contact_page.py # Page Object для заполнения формы
-│   └── main_page.py    # Page Object для главной страницы
-├── tests/             # Тесты
-│   ├── test_contact_form.py # Тесты для заполнения формы
-│   └── test_main_page.py   # Тесты для главной страницы
-├── utils/             # Вспомогательные функции и классы (пусто)
-├── conftest.py       # Pytest fixture (настройки тестовой среды)
-├── README.md         # Этот файл
-├── requirements.txt  # Список зависимостей Python
-└── Dockerfile        # Файл для сборки Docker-контейнера
-
+ ```
+├── .venv/                          # Виртуальное окружение Python (не входит в репозиторий)
+├── allure-results/                 # Результаты выполнения тестов для Allure (не отслеживается в Git)
+├── data/                           # Файлы с тестовыми данными для заполнения формы
+├── pages/                          # Page Objects
+│   ├── contact_page.py             # Page Object для заполнения формы
+│   └── main_page.py                # Page Object для главной страницы
+├── tests/                          # Тесты
+│   ├── test_contact_form.py        # Тесты для заполнения формы
+│   └── test_main_page.py           # Тесты для главной страницы
+├── utils/                          # Вспомогательные функции и классы (пусто)
+├── conftest.py                     # Pytest fixture (настройки тестовой среды)
+├── README.md                       # Этот файл
+├── requirements.txt                # Список зависимостей Python
+└── Dockerfile                      # Файл для сборки Docker-контейнера
+ ```
 
 ## Требования
 
