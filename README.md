@@ -4,10 +4,10 @@
 
 ## Используемые технологии
 - **Язык**: Python 3.10
-- **Фреймворк тестирования**: Playwright (для браузерной автоматизации) + Pytest
+- **Фреймворк тестирования**: Playwright + Pytest
 - **Отчёты**: Allure
 - **Паттерн**: Page Object Model
-- **Дополнительно**: Docker (опционально)
+- **Дополнительно**: Docker
 
 
 ## Структура проекта (Framework Structure)
@@ -15,7 +15,7 @@
 Playwright_Allure_Python/
  ```
 ├── .venv/                          # Виртуальное окружение Python (не входит в репозиторий)
-├── allure-results/                 # Результаты выполнения тестов для Allure (не отслеживается в Git)
+├── allure-results/                 # Результаты выполнения тестов для Allure
 ├── data/                           # Файлы с тестовыми данными для заполнения формы
 ├── pages/                          # Page Objects
 │   ├── contact_page.py             # Page Object для заполнения формы
