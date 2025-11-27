@@ -1,0 +1,5 @@
+valid_name = "Maria B."
+valid_email = "mba@mail2000.ru"
+valid_phone = "+79528927654"
+valid_specialization = "Software Engineer. QA."
+valid_message = "This is a test message. Это тестовое сообщение."
