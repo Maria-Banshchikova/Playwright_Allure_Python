@@ -7,14 +7,12 @@
 - **Фреймворк тестирования**: Playwright + Pytest
 - **Отчёты**: Allure
 - **Паттерн**: Page Object Model
-- **Дополнительно**: Docker
 
 
 ## Структура проекта (Framework Structure)
 
 Playwright_Allure_Python/
  ```
-├── .venv/                          # Виртуальное окружение Python (не входит в репозиторий)
 ├── allure-results/                 # Результаты выполнения тестов для Allure
 ├── data/                           # Файлы с тестовыми данными для заполнения формы
 ├── pages/                          # Page Objects
@@ -27,17 +25,9 @@ Playwright_Allure_Python/
 ├── conftest.py                     # Pytest fixture (настройки тестовой среды)
 ├── README.md                       # Этот файл
 ├── requirements.txt                # Список зависимостей Python
-└── Dockerfile                      # Файл для сборки Docker-контейнера
  ```
 
-## Требования
-
-*   Python 3.10
-*   Playwright
-*   Pytest
-*   Allure
-
-## Инструкция по установке (Setup Instructions)
+## Инструкция по установке
 
 1.  **Клонируйте репозиторий:**
 
@@ -90,21 +80,6 @@ Playwright_Allure_Python/
 
     Эта команда запустит веб-сервер и откроет Allure отчет в вашем браузере.  Вы можете просмотреть отчет локально, чтобы анализировать результаты тестов.
 
-## Docker
-
-1.  **Соберите Docker-образ:**
-
-    ```bash
-    docker build -t tests-effective-mobile .
-    ```
-
-2.  **Запустите Docker-контейнер:**
-
-    ```bash
-    docker run -v $(pwd)/allure-results:/app/allure-results tests-effective-mobile
-    ```
-    *Замените `$(pwd)` на текущую директорию или полный путь к папке с проектом в Windows.*
-    Эта команда запустит контейнер, выполнит тесты и сохранит отчет Allure в локальную папку `allure-results`.
 
 Советы:
 Проблемы?: Если таймауты — проверьте интернет/VPN.
