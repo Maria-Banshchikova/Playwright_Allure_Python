@@ -1,0 +1,7 @@
+__pycache__/
+allure-results/
+.venv/
+**/__pycache__/
+.pytest_cache/
+Structure.jpg
+utils/
