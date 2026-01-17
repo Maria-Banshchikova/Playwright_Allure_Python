@@ -1,6 +1,6 @@
 __pycache__/
 allure-results/
-.venv/
+venv/
 **/__pycache__/
 .pytest_cache/
 Structure.jpg
